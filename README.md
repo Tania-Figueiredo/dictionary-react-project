@@ -1,32 +1,35 @@
-# 📖 Dictionary React App
+# Dictionary React Project
 
-A simple dictionary search engine built with React.  
-This app allows users to search for a word and get its definitions using the SheCodes Dictionary API.
+Este é um projeto React para um dicionário interativo que permite pesquisar palavras e obter definições, sinónimos, partes do discurso, fonética, e imagens relacionadas.
 
-## 🚀 Features
+## Funcionalidades
 
-- Live word search
-- Displays:
-  - Word and phonetic spelling
-  - Definitions
-  - Examples (when available)
-- Built using:
-  - React (via `create-react-app`)
-  - Axios for HTTP requests
-  - Bootstrap for styling
+- Pesquisa palavras em inglês e apresenta:
+  - Definições principais e adicionais.
+  - Fonética da palavra.
+  - Listas de adjetivos, substantivos (nouns) e sinónimos.
+  - Galeria de imagens relacionada à palavra pesquisada.
 
-## 🛠 Tech Stack
+## Tecnologias Utilizadas
 
-- React
-- JavaScript (ES6+)
-- Axios
-- Bootstrap 5
-- SheCodes Dictionary API
+- **React** — Biblioteca JavaScript para construir a interface de utilizador.
+- **Axios** — Cliente HTTP para fazer chamadas às APIs.
+- **Bootstrap** — Framework CSS para estilização responsiva e componentes UI.
+- **CSS personalizado** — Para personalizar cores, tipografia e layout.
 
-## 🔑 API Key Setup
+## APIs Utilizadas
 
-To use this app, create a `.env` file in the root directory with your SheCodes API key:
+- [DictionaryAPI.dev](https://dictionaryapi.dev/)  
+  API gratuita para obter definições, fonética, exemplos, e sinónimos das palavras. Pertence à comunidade open-source e é mantida por voluntários.
 
-```env
-REACT_APP_SHECODES_API_KEY=your_api_key_here
-```
+- [Pexels API](https://www.pexels.com/api/)  
+  API para obter imagens gratuitas de alta qualidade relacionadas às palavras pesquisadas. As imagens são disponibilizadas pela Pexels, um serviço de fotos e vídeos stock gratuitos.
+
+> **Nota:** As chaves de API para a Pexels são necessárias para autenticação e devem ser configuradas no ficheiro `.env` local, que **não** deve ser incluído no repositório público.
+
+## Como Usar
+
+1. Clona este repositório:
+   ```bash
+   git clone https://github.com/Tania-Figueiredo/dictionary-react-project.git
+   ```
