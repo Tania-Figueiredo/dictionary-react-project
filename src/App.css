@@ -1,0 +1,144 @@
+body {
+  background-color: #f9f9f9;
+  color: #1f1f1f;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #4b3f72;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #4b3f72;
+  margin-bottom: 12px;
+}
+
+h3,
+.card-title {
+  font-size: 1.25rem;
+  color: #4b3f72;
+  margin-bottom: 12px;
+}
+
+p,
+.text-muted,
+summary,
+input::placeholder {
+  color: #bf5f82;
+}
+
+input[type="search"] {
+  border: 1px solid #e0d7ec;
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input[type="search"]::placeholder {
+  color: #bf5f82;
+}
+
+button.btn-primary {
+  background-color: #a85d9b;
+  border-color: #a85d9b;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+button.btn-primary:hover {
+  background-color: #8b3d7b;
+  border-color: #8b3d7b;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(75, 63, 114, 0.1);
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.card-body {
+  border-radius: 12px;
+  padding: 16px;
+}
+
+img.img-fluid {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: #bf5f82;
+  margin-top: 10px;
+}
+
+details ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+ul.list-unstyled li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 16px;
+  background-color: #f3f0f9;
+  color: #4b3f72;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #e0d7ec;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+footer p {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+footer a {
+  color: #a85d9b;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.85rem;
+    padding: 12px;
+  }
+
+  footer p {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
