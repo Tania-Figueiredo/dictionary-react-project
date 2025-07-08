@@ -1,35 +1,35 @@
 # Dictionary React Project
 
-Este é um projeto React para um dicionário interativo que permite pesquisar palavras e obter definições, sinónimos, partes do discurso, fonética, e imagens relacionadas.
+This is a React project for an interactive dictionary that allows users to search for words and get definitions, synonyms, parts of speech, phonetics, and related images.
 
-## Funcionalidades
+## Features
 
-- Pesquisa palavras em inglês e apresenta:
-  - Definições principais e adicionais.
-  - Fonética da palavra.
-  - Listas de adjetivos, substantivos (nouns) e sinónimos.
-  - Galeria de imagens relacionada à palavra pesquisada.
+- Search English words and display:
+  - Main and additional definitions.
+  - Word phonetics.
+  - Lists of adjectives, nouns, and synonyms.
+  - Image gallery related to the searched word.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **React** — Biblioteca JavaScript para construir a interface de utilizador.
-- **Axios** — Cliente HTTP para fazer chamadas às APIs.
-- **Bootstrap** — Framework CSS para estilização responsiva e componentes UI.
-- **CSS personalizado** — Para personalizar cores, tipografia e layout.
+- **React** — JavaScript library for building user interfaces.
+- **Axios** — HTTP client for API requests.
+- **Bootstrap** — CSS framework for responsive styling and UI components.
+- **Custom CSS** — For personalized colors, typography, and layout.
 
-## APIs Utilizadas
+## APIs Used
 
 - [DictionaryAPI.dev](https://dictionaryapi.dev/)  
-  API gratuita para obter definições, fonética, exemplos, e sinónimos das palavras. Pertence à comunidade open-source e é mantida por voluntários.
+  A free API providing word definitions, phonetics, examples, and synonyms. It is an open-source project maintained by volunteers.
 
 - [Pexels API](https://www.pexels.com/api/)  
-  API para obter imagens gratuitas de alta qualidade relacionadas às palavras pesquisadas. As imagens são disponibilizadas pela Pexels, um serviço de fotos e vídeos stock gratuitos.
+  API to fetch high-quality free images related to searched words. Images are provided by Pexels, a free stock photo and video service.
 
-> **Nota:** As chaves de API para a Pexels são necessárias para autenticação e devem ser configuradas no ficheiro `.env` local, que **não** deve ser incluído no repositório público.
+> **Note:** API keys for Pexels are required for authentication and must be configured in the local `.env` file, which **should not** be included in the public repository.
 
-## Como Usar
+## How to Use
 
-1. Clona este repositório:
+1. Clone this repository:
    ```bash
    git clone https://github.com/Tania-Figueiredo/dictionary-react-project.git
    ```
