@@ -21,7 +21,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tania Figueiredo
+          Tânia Figueiredo
         </a>
         . Open-sourced on{" "}
         <a
