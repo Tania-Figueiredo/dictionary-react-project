@@ -1,35 +1,55 @@
-# Dictionary React Project
+# React Dictionary App
 
-This is a React project for an interactive dictionary that allows users to search for words and get definitions, synonyms, parts of speech, phonetics, and related images.
+React dictionary app using external APIs to combine definitions, phonetics and image results.
 
-## Features
+## Overview
 
-- Search English words and display:
-  - Main and additional definitions.
-  - Word phonetics.
-  - Lists of adjectives, nouns, and synonyms.
-  - Image gallery related to the searched word.
+This project lets users search for English words and view definitions, phonetics, synonyms and related images. It focuses on combining multiple API responses into one clear interface.
 
-## Technologies Used
+## What It Shows
 
-- **React** — JavaScript library for building user interfaces.
-- **Axios** — HTTP client for API requests.
-- **Bootstrap** — CSS framework for responsive styling and UI components.
-- **Custom CSS** — For personalized colors, typography, and layout.
+- React component structure
+- API requests with Axios
+- Data parsing from external APIs
+- Conditional rendering for search results
+- Image results connected to user search input
+- Responsive UI using Bootstrap and custom CSS
+
+## Tech Stack
+
+- React
+- JavaScript
+- Axios
+- Bootstrap
+- Custom CSS
+- DictionaryAPI.dev
+- Pexels API
 
 ## APIs Used
 
-- [DictionaryAPI.dev](https://dictionaryapi.dev/)  
-  A free API providing word definitions, phonetics, examples, and synonyms. It is an open-source project maintained by volunteers.
+- [DictionaryAPI.dev](https://dictionaryapi.dev/) for word definitions, phonetics and examples.
+- [Pexels API](https://www.pexels.com/api/) for related image results.
 
-- [Pexels API](https://www.pexels.com/api/)  
-  API to fetch high-quality free images related to searched words. Images are provided by Pexels, a free stock photo and video service.
+## Environment Variables
 
-> **Note:** API keys for Pexels are required for authentication and must be configured in the local `.env` file, which **should not** be included in the public repository.
+The Pexels API key should be stored locally in an `.env` file:
 
-## How to Use
+```bash
+REACT_APP_PEXELS_API_KEY=your_api_key_here
+```
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Tania-Figueiredo/dictionary-react-project.git
-   ```
+The `.env` file should not be committed to the public repository.
+
+## Links
+
+- Live demo: [reactaddondictionary.netlify.app](https://reactaddondictionary.netlify.app/)
+- Repository: [github.com/Tania-Figueiredo/dictionary-react-project](https://github.com/Tania-Figueiredo/dictionary-react-project)
+
+## Run Locally
+
+```bash
+git clone https://github.com/Tania-Figueiredo/dictionary-react-project.git
+cd dictionary-react-project
+npm install
+npm start
+```
